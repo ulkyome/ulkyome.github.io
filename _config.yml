@@ -8,6 +8,7 @@ plugins:
 
 name: Your Name
 description: Web Developer from Somewhere
+avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 
 # social_media:
   # behance: your_username

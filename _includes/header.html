@@ -3,9 +3,9 @@
 	<head>
 		<title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 		<meta charset="utf-8" />
-		<meta name="description" content="{{ meta_description }}" />
-		<meta property="og:title" content="{{ user.name }}" />
-		<meta property="og:image" content="{{ user.avatar_url }}" />
+		<meta name="description" content="{{ site.description }}" />
+		<meta property="og:title" content="{{ page.title }}" />
+		<meta property="og:image" content="{{ site.avatar }}" />
 		<meta property="og:description" content="{{ meta_description }}" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -31,7 +31,7 @@
 
 					<!-- Logo -->
 						<div id="logo">
-							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+							<span class="image avatar48"><img src="{{ site.avatar }}" alt="" /></span>
 							<h1 id="title">Дмитрий Савельев</h1>
 							<p>DevOps Engineer</p>
 						</div>
