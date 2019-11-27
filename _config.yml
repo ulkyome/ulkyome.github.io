@@ -9,8 +9,8 @@ url: "https://ulkyome.github.io"
 name: Ulkyome
 description: test desc
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
-test: 
-    testtext: test2
+#test: 
+#    testtext: test2
 
 
 # social_media:
