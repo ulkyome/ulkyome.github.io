@@ -9,7 +9,9 @@ plugins:
 name: Ulkyome
 description: test desc
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
-test: test
+test: 
+    testtext: test2
+
 
 # social_media:
   # behance: your_username
