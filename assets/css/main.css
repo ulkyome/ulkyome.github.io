@@ -2063,7 +2063,6 @@ input, select, textarea {
 			-webkit-flex-grow: 1;
 			-ms-flex-grow: 1;
 			flex-grow: 1;
-			height: 400px;
 		}
 
 		#header .bottom {
@@ -2250,6 +2249,7 @@ input, select, textarea {
 			#main > section.one {
 				background-color: #81918E;
 				background-image: url("../../images/banner.jpg");
+				height: 900px
 			}
 
 			#main > section.two {
