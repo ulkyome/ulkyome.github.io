@@ -2277,6 +2277,10 @@ input, select, textarea {
 				color: #000;
 				font-weight: normal;
 			}
+			img#about_img{
+				width: 730px;
+				height: 250px;
+			}
 
 /* Wide */
 
