@@ -1,10 +1,10 @@
-layout: sidebar
-style: light
-
 plugins:
   - jekyll-octicons
   - jekyll-github-metadata
   - jemoji
+  - jekyll-sitemap
+
+url: "https://ulkyome.github.io"
 
 name: Ulkyome
 description: test desc
@@ -30,5 +30,11 @@ test:
   # vk: your_username
   # website: http://your_website_url
   # youtube: your_username
+
   
-page_title: "TEST"
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
