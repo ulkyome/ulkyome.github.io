@@ -1731,7 +1731,7 @@ input, select, textarea {
 	section, article {
 		margin-bottom: 3em;
 	}
-	section, article.one{
+	section, article.container{
 		height: 400px;
 		background-color: #202e39;
 		padding: 10px;
