@@ -16,7 +16,7 @@ copyright: false
 #    testtext: test2
 
 
-# social_media:
+social_media:
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
@@ -33,6 +33,8 @@ copyright: false
   # vk: your_username
   # website: http://your_website_url
   # youtube: your_username
+  github: https://github.com/ulkyome
+  email: ulkyome@gmail.com
 
   
 exclude:
