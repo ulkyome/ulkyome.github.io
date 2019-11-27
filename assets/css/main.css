@@ -2242,6 +2242,7 @@ input, select, textarea {
 				#main > section.dark a {
 					color: #fff;
 					border-color: inherit;
+					font-weight: bold;
 				}
 
 					#main > section.dark a:hover {
