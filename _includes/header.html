@@ -56,8 +56,8 @@
 								{% for account in site.social_media %}
 									{% assign service_shortname = account[0] %}
 									{% assign service = site.data.social_media[service_shortname] %}
-									{{ service.icon_svg }}
-									<li><a href="{{ service.profile_url_prefix }}{{ account[1] }}" class="icon brands fa-{{ service.name }}"><span class="label">{{ service.name }}</span></a></li>
+									
+									<li><a href="{{ service.profile_url_prefix }}{{ account[1] }}">{{ service.icon_svg }}<span class="label">{{ service.name }}</span></a></li>
 								{% endfor %}
 							{% endif %}
 							
