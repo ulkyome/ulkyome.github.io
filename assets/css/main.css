@@ -2274,7 +2274,8 @@ input, select, textarea {
 			}
 			
 			#about_c{
-				color: #fff;
+				color: #000;
+				font-weight: normal;
 			}
 
 /* Wide */
