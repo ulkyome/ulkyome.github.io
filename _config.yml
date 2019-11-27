@@ -2,7 +2,6 @@ plugins:
   - jekyll-octicons
   - jekyll-github-metadata
   - jemoji
-  - jekyll-sitemap
 
 url: "https://ulkyome.github.io"
 
@@ -57,16 +56,16 @@ social_media:
   # vk: your_username
   # website: http://your_website_url
   # youtube: your_username
-  github: https://github.com/ulkyome
-  email: ulkyome@gmail.com
+  #github: https://github.com/ulkyome
+  #email: ulkyome@gmail.com
   
-topics:
-- name: CSS
-  web_url: https://github.com/topics/css
-  image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
-
-- name: Web design
-
-- name: Sass
-  web_url: https://github.com/topics/sass
-  image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+#topics:
+#- name: CSS
+#  web_url: https://github.com/topics/css
+#  image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+#
+#- name: Web design
+#
+#- name: Sass
+#  web_url: https://github.com/topics/sass
+#  image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
