@@ -38,9 +38,10 @@
 
 					<!-- Nav -->
 						<nav id="nav">
-							<ul>1
+							<ul>
 								{% if site.data.menu %}
 								{% for nav in site.data.menu %}
+									{{ site.data.menu }}
 									<li><a href="{{ site.data.menu[0].url }}" id="{{ site.data.menu[0].id_class }}"><span class="icon solid {{ site.data.menu[0].icon_class }}">{{ site.data.menu[0].name }}</span></a></li>
 									{% endfor %}
 								{% endif %}
