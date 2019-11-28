@@ -38,10 +38,10 @@
 
 					<!-- Nav -->
 						<nav id="nav">
-							<ul>
+							<ul>1
 								{% if site.data.menu %}
 								{% for nav in site.data.menu %}
-									<li><a href="{{ site.data.menu[nav].url }}" id="{{ site.data.menu[nav].id_class }}"><span class="icon solid {{ site.data.menu[nav].icon_class }}">{{ site.data.menu[nav].name }}</span></a></li>
+									<li><a href="{{ site.data.menu[0].url }}" id="{{ site.data.menu[0].id_class }}"><span class="icon solid {{ site.data.menu[0].icon_class }}">{{ site.data.menu[0].name }}</span></a></li>
 									{% endfor %}
 								{% endif %}
 								
