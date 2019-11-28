@@ -1,22 +1,22 @@
-data:
+intro:
   name: Интро
   url: top
   icon_class: 'fa-home'
   id_class: 'top-link'
 
-data:
+portfolio:
   name: Портфолио
   url: portfolio
   icon_class_class: 'fa-th'
   id_class: 'portfolio-link'
 
-data:
+about:
   name: Обо мне
   url: about
   icon_class: 'fa-user'
   id_class: 'about-link'
  
-data:
+contact:
   name: Связь
   url: contact
   icon_class: 'fa-envelope'

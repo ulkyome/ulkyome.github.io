@@ -39,10 +39,11 @@
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								{% if site.data.menu %}
-								{% for nav in site.data.menu.data %}
-									{{ nav }}
-									<li><a href="{{ site.data.menu.data[nav].url }}" id="{{ site.data.menu.data[nav].id_class }}"><span class="icon solid {{ site.data.menu.data[nav].icon_class }}">{{ site.data.menu.data[nav].name }}</span></a></li>
+								{% if site.menu %}
+								{% for nav in site.menu %}
+									{% assign nav_shortname = account[0] %}
+									{% assign nav_menu = site.data.menu[nav_shortname] %}
+									<li><a href="{{ nav_menu.url }}" id="{{ nav_menu.id_class }}"><span class="icon solid {{ nav_menu.icon_class }}">{{ nav_menu.name }}</span></a></li>
 									{% endfor %}
 								{% endif %}
 								
