@@ -7,7 +7,7 @@ intro:
 portfolio:
   name: Портфолио
   url: portfolio
-  icon_class_class: 'fa-th'
+  icon_class: 'fa-th'
   id_class: 'portfolio-link'
 
 about:
