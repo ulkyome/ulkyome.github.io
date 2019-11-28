@@ -43,18 +43,9 @@
 								{% for nav in site.menu %}
 									{% assign nav_shortname = nav[0] %}
 									{% assign nav_menu = site.data.menu[nav_shortname] %}
-									
-									{{ nav_menu }}
-									{{ nav_shortname }}
-									
 									<li><a href="{{ nav_menu.url }}" id="{{ nav_menu.id_class }}"><span class="icon solid {{ nav_menu.icon_class }}">{{ nav_menu.name }}</span></a></li>
 									{% endfor %}
 								{% endif %}
-								
-								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Интро</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Портфолио</span></a></li>
-								<li><a href="#about" id="about-link"><span class="icon solid fa-user">Обо мне</span></a></li>
-								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Связь</span></a></li>
 							</ul>
 						</nav>
 
