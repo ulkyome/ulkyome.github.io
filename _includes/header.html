@@ -43,7 +43,7 @@
 								{% for nav in site.menu %}
 									{% assign nav_shortname = nav[0] %}
 									{% assign nav_menu = site.data.menu[nav_shortname] %}
-									<li><a href="{{ nav_menu.url }}" id="{{ nav_menu.id_class }}"><span class="icon solid {{ nav_menu.icon_class }}">{{ nav_menu.name }}</span></a></li>
+									<li><a href="#{{ nav_menu.url }}" id="{{ nav_menu.id_class }}"><span class="icon solid {{ nav_menu.icon_class }}">{{ nav_menu.name }}</span></a></li>
 									{% endfor %}
 								{% endif %}
 							</ul>
