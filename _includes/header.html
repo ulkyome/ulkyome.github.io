@@ -41,7 +41,7 @@
 							<ul>
 								{% if site.menu %}
 								{% for nav in site.menu %}
-									{% assign nav_shortname = account[0] %}
+									{% assign nav_shortname = nav[0] %}
 									{% assign nav_menu = site.data.menu[nav_shortname] %}
 									
 									{{ nav_menu }}
